@@ -13,7 +13,7 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
 
 -Requisitoos:"el sistema debe permitir"...
   -Funcionales: permite generar solicitudes de recoleccion, ver solicitudes anteriores,verificar si existen flotas disponibles en tu zona, permita visualizar las rutas que recorrera cada camión, codigs de confirmacion del user al reciclador
-  y permitir a los recicladores reportar el resultado de cada retiro.
+  y permitir a los recicladores reportar el resultado de cada retiro
   
   -No funcionales: un reciclador solo puede tener solicitudes de su zona, las solicitudes se piden con horarios y estos son unicas entre usuarios, cada solicitud tiene un codigo de verificacion unico del usuario hacia el reciclador, las rutas de inicioa fin seran guiadas en base a los horarios pedidos.
 
