@@ -16,32 +16,34 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
     
    * Genera solicitudes de recoleccion.
    * Permite visualizar solicitudes anteriores.
-   * Verificar si existen flotas disponibles en la zona del usuario.
-   * Permite visualizar las rutas que recorrera cada camión.
-   * Genera códigos de confirmación únicos por solicitud, tanto para el reciclador y el usuario solicitante.
+   * Verificar si existen flotas disponibles en la zona del usuario solicitante.
+   * Permite al coordinador visualizar las rutas que recorrera cada camión.
    * Permite a los recicladores reportar el resultado de cada solicitud.    
     
    ### No funcionales: 
    1. Rendimiento:    
       * El sistema debe soportar al menos 500 solicitudes simultáneas.
-      * Un reciclador solo puede tener solicitudes de su zona. 
+      * Un reciclador solo puede tener solicitudes de su zona.
+      * El usuario solicitante solo puede realizar 2 solicitudes al día.
+      * Las solicitudes se piden con horarios y estos son unicos entre usuarios.
+      * Las rutas de inicio a fin seran guiadas en base a los horarios pedidos.
+
    2. Usabilidad:
       * El sistema debe funcionar en versión web y aplicación móvil.
+      * El sistema debe tener separadas y aisladas las vistas de cada actor.
+
    3. Seguridad:
       * El sistema debe proteger los datos mediante autenticación y encriptación.
-      * Cada solicitud tiene un codigo de verificación unico del usuario hacia el reciclador.
-      * Los códigos de verificación deben ser únicos y no reutilizables.
+      * El sistema debe generar códigos de verificación únicos y no reutilizables.
+      * Cada solicitud tiene un codigo de verificación del usuario hacia el reciclador.
+   
    4. Confiabilidad:
       * El sistema debe recuperar su funcionamiento tras fallos sin pérdida de información.
-      * 
-   
-    - Las solicitudes se piden con horarios y estos son unicas entre usuarios.
-    - Cada solicitud tiene un codigo de verificacion unico del usuario hacia el reciclador.
-    - Las rutas de inicioa fin seran guiadas en base a los horarios pedidos.
 
+      
 ## Actores involucrados:
-     -Recicladores
-     -personas solicitantes 
-     -choferes
-     -coordinador de ruta(jefe)
+   *Recicladores
+   *Personas solicitantes 
+   *Choferes
+   *Coordinador de ruta(jefe)
 
