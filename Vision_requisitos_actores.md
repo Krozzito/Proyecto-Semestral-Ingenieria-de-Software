@@ -11,16 +11,30 @@ Se busca implementar un software encargado de gestionar y coordinar las solicitu
 logrando eliminar solicitudes perdidas(ya que se almacenara toda solicitud)
 generando rutas eficientes(implementando un algoritmo eficiente) y entregando toda la informacion necesaria para evitar confusiones (hora estimada de llegada , peticiones, solicitudes y ubicaciones)
 
-## Requisitos:"el sistema debe permitir"...
+## Requisitos:"el sistema..."
    ### Funcionales: 
-    - Permite generar solicitudes de recoleccion.
-    - Ver solicitudes anteriores.
-    - Verificar si existen flotas disponibles en tu zona.
-    - Permita visualizar las rutas que recorrera cada camión.
-    - Codigos de confirmacion del user al reciclador y permitir a los recicladores reportar el resultado de cada retiro
-  
+    
+   * Genera solicitudes de recoleccion.
+   * Permite visualizar solicitudes anteriores.
+   * Verificar si existen flotas disponibles en la zona del usuario.
+   * Permite visualizar las rutas que recorrera cada camión.
+   * Genera códigos de confirmación únicos por solicitud, tanto para el reciclador y el usuario solicitante.
+   * Permite a los recicladores reportar el resultado de cada solicitud.    
+    
    ### No funcionales: 
-    - Un reciclador solo puede tener solicitudes de su zona. 
+   1. Rendimiento:    
+      * El sistema debe soportar al menos 500 solicitudes simultáneas.
+      * Un reciclador solo puede tener solicitudes de su zona. 
+   2. Usabilidad:
+      * El sistema debe funcionar en versión web y aplicación móvil.
+   3. Seguridad:
+      * El sistema debe proteger los datos mediante autenticación y encriptación.
+      * Cada solicitud tiene un codigo de verificación unico del usuario hacia el reciclador.
+      * Los códigos de verificación deben ser únicos y no reutilizables.
+   4. Confiabilidad:
+      * El sistema debe recuperar su funcionamiento tras fallos sin pérdida de información.
+      * 
+   
     - Las solicitudes se piden con horarios y estos son unicas entre usuarios.
     - Cada solicitud tiene un codigo de verificacion unico del usuario hacia el reciclador.
     - Las rutas de inicioa fin seran guiadas en base a los horarios pedidos.
