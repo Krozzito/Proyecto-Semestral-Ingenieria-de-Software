@@ -34,8 +34,9 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
 
    3. Seguridad:
       * El sistema debe proteger los datos mediante autenticación y encriptación.
+      * El sistema debe verificar la identidad de sus usuarios.
       * El sistema debe generar códigos de verificación únicos y no reutilizables.
-      * Cada solicitud tiene un codigo de verificación del usuario hacia el reciclador.
+      * Cada solicitud tiene un codigo de verificación.
    
    4. Confiabilidad:
       * El sistema debe recuperar su funcionamiento tras fallos sin pérdida de información.
@@ -47,3 +48,36 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
    *Choferes
    *Coordinador de ruta(jefe)
 
+## Casos de Uso:
+### Imagen de diagrama Casos de Uso
+
+               *insertar imagen :p*
+
+
+### Personas solicitantes:
+
+   1. Solicitar recolección.
+   2. Ver el historial de solicitudes.
+   3. Ver disponibilidad de flotas por zona.
+   4. Ver estado del recorrido.
+
+### Recicladores:
+
+   1. Ver estado del recorrido.
+   2. Crear reporte.
+   3. Ingresar código.
+
+
+### Choferes:
+
+   1. Definir disponibilidad.
+   2. Ingresar código.
+
+### Coordinador de ruta:
+
+   1. Acceder a datos de las solicitudes.
+   2. Acceder a datos de las flotas disponibles.
+   3. Crear recorrido.
+   4. Editar recorrido.
+   5. Fijar recorrido.
+   6. Ver estado del recorrido.
