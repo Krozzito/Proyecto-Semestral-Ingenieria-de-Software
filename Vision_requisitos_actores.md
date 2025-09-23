@@ -1,15 +1,16 @@
+# Ayudantía 1
 
 ## Vision del problema
 
 Hay una cooperativa de recicladores que realizan recolección de materiales reciclables directamente desde los
-hogares en varias comunas del pais. El problema surge que la solicitud y coordinación se realiza por vías informales (llamados,
+hogares en varias comunas del país. El problema surge que la solicitud y coordinación se realiza por vías informales (llamados,
 planillas, papel), provocando confusiones, rutas ineficientes y solicitudes perdidas.
 
 ## Vision del producto
 
-Se busca implementar un software encargado de gestionar y coordinar las solicitudes de recoleccion de materiales a los largo de las distintas comunas,
+Se busca implementar un software encargado de gestionar y coordinar las solicitudes de recolección de materiales a los largo de las distintas comunas,
 logrando eliminar solicitudes perdidas(ya que se almacenara toda solicitud)
-generando rutas eficientes(implementando un algoritmo eficiente) y entregando toda la informacion necesaria para evitar confusiones (hora estimada de llegada , peticiones, solicitudes y ubicaciones)
+generando rutas eficientes(implementando un algoritmo eficiente) y entregando toda la información necesaria para evitar confusiones (hora estimada de llegada , peticiones, solicitudes y ubicaciones)
 
 ## Requisitos:"el sistema..."
 
