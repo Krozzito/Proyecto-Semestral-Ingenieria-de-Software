@@ -60,9 +60,10 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
 ### Personas solicitantes
 
    1. Solicitar recolección.
-   2. Ver el historial de solicitudes.
-   3. Ver disponibilidad de flotas por zona.
-   4. Ver estado del recorrido.
+   2. Generar código de la recolección.
+   3. Ver el historial de solicitudes.
+   4. Ver disponibilidad de flotas por zona.
+   5. Ver estado del recorrido.
 
 ### Recicladores
 
@@ -74,6 +75,7 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
 
    1. Definir disponibilidad.
    2. Ingresar código.
+   3. Ver estado del recorrido.
 
 ### Coordinador de ruta
 
