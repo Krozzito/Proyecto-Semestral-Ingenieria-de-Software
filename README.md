@@ -12,7 +12,7 @@ Se busca implementar un software encargado de gestionar y coordinar las solicitu
 logrando eliminar solicitudes perdidas(ya que se almacenara toda solicitud)
 generando rutas eficientes(implementando un algoritmo eficiente) y entregando toda la información necesaria para evitar confusiones (hora estimada de llegada , peticiones, solicitudes y ubicaciones)
 
-## Requisitos:"el sistema..."
+## Requisitos:
 
 ### Funcionales
 
