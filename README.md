@@ -51,7 +51,8 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
 
 ### Imagen de diagrama Casos de Uso
 
-    *insertar imagen :p*
+   ![](/casosdeuso.jpg)
+
 
 ### Hogar
 
