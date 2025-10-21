@@ -44,7 +44,7 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
 ## Actores involucrados
 
 * Recicladores
-* Usuarios (Personas solicitantes)
+* Hogar (Personas solicitantes)
 * Coordinador de ruta
 
 ## Casos de Uso
@@ -53,31 +53,19 @@ generando rutas eficientes(implementando un algoritmo eficiente) y entregando to
 
     *insertar imagen :p*
 
-### Personas solicitantes
+### Hogar
 
-   1. Solicitar recolección.
-   2. Generar código de la recolección.
-   3. Ver el historial de solicitudes.
-   4. Ver disponibilidad de flotas por zona.
-   5. Ver estado del recorrido.
+   1. Ingresar solicitud
+   1' Validar dirección
 
 ### Recicladores
 
-   1. Ver estado del recorrido.
-   2. Crear reporte.
-   3. Ingresar código.
+   1. Ver ruta asignada
+   3. Actualizar estado del retiro
+   2' Emitir comprobante
 
-### Choferes
+### Coordinador
 
-   1. Definir disponibilidad.
-   2. Ingresar código.
-   3. Ver estado del recorrido.
-
-### Coordinador de ruta
-
-   1. Acceder a datos de las solicitudes.
-   2. Acceder a datos de las flotas disponibles.
-   3. Crear recorrido.
-   4. Editar recorrido.
-   5. Fijar recorrido.
-   6. Ver estado del recorrido.
+1. Agrupar solicitudes por zona
+1' Validar direccion
+1' Generar y optimizar ruta 
